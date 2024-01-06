@@ -1,0 +1,973 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&display=swap');
+
+body{
+    margin: 0 auto;
+    background-color: #ffffff;
+    font-family: "DM Sans", sans-serif;
+}
+.content{
+    max-width: 1110px;
+    margin: 0 auto;
+    width: 100%;
+}
+.header{
+    padding-top: 28px;
+    padding-bottom: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-bar{
+    display: flex;
+    align-items: center;
+    .button{
+        padding-left: 150px;
+    }
+}
+.hamburger{
+    display: none;
+}
+.menu{
+    display: flex;
+    gap: 37px;
+}
+header a{
+    color: #000000;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 2.5px;
+    text-decoration: none;
+    font-weight: 700;
+}
+header a:hover{
+    color:#DFDFDF ;
+}
+.mobile{
+    display: none;
+}
+button{
+    width: 158px;
+    height: 40px;
+    background-color: #000;
+    border: 1px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+button:hover{
+    background: #DFDFDF;
+    color: #000;
+}
+.manu-item{
+    color: #000;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    
+    .page-1{
+        display: flex;
+        .create{
+            padding-top: 173px;
+            padding-left: 112px;
+            padding-right: 111px;
+            height: 550px;
+            background-color: #000000;
+            color: #fff;
+            h1{
+                color: #FFF;
+                font-family: DM Sans;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 48px; /* 120% */
+                letter-spacing: 4.167px;
+                text-transform: uppercase;
+            }   
+            .invite{
+                display: flex;
+                justify-content: center;
+                gap: 18px;
+            }
+        }
+    }
+    .page-2{
+        display: flex;
+        
+        .create{
+            margin: 0 auto;
+            padding-top: 173px;
+            padding-left: 112px;
+            padding-right: 111px;
+            width: 410px;
+            height: 550px;
+            background-color: #ffffff;
+            color: #000000;
+            position: relative;
+            h1{
+                color: #000000;
+                font-family: DM Sans;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 48px; /* 120% */
+                text-transform: uppercase;
+            }   
+            .invite{
+                display: flex;
+                justify-content: center;
+                gap: 18px;
+                
+            }
+        }
+    }
+    .page-3{
+        display: flex;
+        .create{
+            margin: 0 auto;
+            padding-top: 173px;
+            padding-left: 112px;
+            padding-right: 111px;
+            width: 380px;
+            height: 550px;
+            background-color: #ffffff;
+            color: #000000;
+            position: relative;
+            h1{
+                text-align: center;
+                color: #000000;
+                font-family: DM Sans;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 48px; /* 120% */
+                letter-spacing: 4.167px;
+                text-transform: uppercase;
+            }   
+            .invite{
+                display: flex;
+                justify-content: center;
+                gap: 18px;
+            }
+        }
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .mountains{
+            width: 360px;
+            height: 500px;
+            background-repeat: no-repeat;
+            background-image: url(../images/desktop/mountains.png);
+            
+            h4{
+                padding-top: 341px;
+                padding-left: 40px;
+                color: #FFF;
+                font-family: DM Sans;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 25px; /* 138.889% */
+            }
+            .name{
+                padding-left: 40px;
+                color: #FFF;
+                font-family: DM Sans;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+            .line{
+                margin-left: 40px;
+                width: 280px;
+                height: 1px;
+                flex-shrink: 0;
+                opacity: 0.25;
+                background: #FFF;
+            }
+            h5{
+                padding-left: 40px;
+                color: #FFF;
+                font-family: DM Sans;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 2px;
+            }
+        }
+        .cityscapes{
+            width: 360px;
+            height: 520px;
+            background-repeat: no-repeat;
+            background-image: url(../images/desktop/cityscapes.png);
+            
+            h4{
+                padding-top: 341px;
+                padding-left: 40px;
+                color: #FFF;
+                font-family: DM Sans;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 25px; /* 138.889% */
+            }
+            .name{
+                padding-left: 40px;
+                color: #FFF;
+                font-family: DM Sans;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+            .line{
+                margin-left: 40px;
+                width: 280px;
+                height: 1px;
+                flex-shrink: 0;
+                opacity: 0.25;
+                background: #FFF;
+            }
+            h5{
+                padding-bottom: 20px;
+                padding-left: 40px;
+                color: #FFF;
+                font-family: DM Sans;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 2px;
+            }
+        }
+        .cityscapes{
+            width: 360px;
+            height: 520px;
+            background-repeat: no-repeat;
+            background-image: url(../images/desktop/cityscapes.png);
+            
+            h4{
+                padding-top: 341px;
+                padding-left: 40px;
+                color: #FFF;
+                font-family: DM Sans;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 25px; /* 138.889% */
+            }
+            .name{
+                padding-left: 40px;
+                color: #FFF;
+                font-family: DM Sans;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+            .line{
+                margin-left: 40px;
+                width: 280px;
+                height: 1px;
+                flex-shrink: 0;
+                opacity: 0.25;
+                background: #FFF;
+            }
+            h5{
+                padding-bottom: 20px;
+                padding-left: 40px;
+                color: #FFF;
+                font-family: DM Sans;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 2px;
+            }
+        }
+        .voyage{
+            width: 360px;
+            height: 520px;
+            background-repeat: no-repeat;
+            background-image: url(../images/desktop/voyage.png);
+            
+            h4{
+                padding-top: 341px;
+                padding-left: 40px;
+                color: #FFF;
+                font-family: DM Sans;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 25px; /* 138.889% */
+            }
+            .name{
+                padding-left: 40px;
+                color: #FFF;
+                font-family: DM Sans;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+            .line{
+                margin-left: 40px;
+                width: 280px;
+                height: 1px;
+                flex-shrink: 0;
+                opacity: 0.25;
+                background: #FFF;
+            }
+            h5{
+                padding-bottom: 20px;
+                padding-left: 40px;
+                color: #FFF;
+                font-family: DM Sans;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 2px;
+            }
+        }
+        .architecturals{
+            width: 360px;
+            height: 520px;
+            background-repeat: no-repeat;
+            background-image: url(../images/desktop/architecturais.png);
+            
+            h4{
+                padding-top: 341px;
+                padding-left: 40px;
+                color: #FFF;
+                font-family: DM Sans;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 25px; /* 138.889% */
+            }
+            .name{
+                padding-left: 40px;
+                color: #FFF;
+                font-family: DM Sans;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+            .line{
+                margin-left: 40px;
+                width: 280px;
+                height: 1px;
+                flex-shrink: 0;
+                opacity: 0.25;
+                background: #FFF;
+            }
+            h5{
+                padding-bottom: 20px;
+                padding-left: 40px;
+                color: #FFF;
+                font-family: DM Sans;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 2px;
+            }
+        }
+    }
+    .main-footer{
+        flex-wrap: wrap;
+        padding-top: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .responsive{
+            .computer{
+                padding-left: 131px;
+            }
+            h6{
+                color: #000;
+                text-align: center;
+                font-family: DM Sans;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 25px; /* 138.889% */
+            }
+            p{
+                color: #000;
+                text-align: center;
+                font-family: DM Sans;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 25px; /* 166.667% */
+            }
+        }
+        .infinite{
+            .computer{
+                padding-left: 131px;
+            }
+            h6{
+                color: #000;
+                text-align: center;
+                font-family: DM Sans;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 25px; /* 138.889% */
+            }
+            p{
+                color: #000;
+                text-align: center;
+                font-family: DM Sans;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 25px; /* 166.667% */
+            }
+        }
+        .ad{
+            .computer{
+                padding-left: 131px;
+            }
+            h6{
+                color: #000;
+                text-align: center;
+                font-family: DM Sans;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 25px; /* 138.889% */
+            }
+            p{
+                color: #000;
+                text-align: center;
+                font-family: DM Sans;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 25px; /* 166.667% */
+            }
+        }
+    }
+}
+footer{
+    .footer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .wrap{
+        display: flex;
+    }
+    .link-mobile{
+        display: none;
+    }
+    background-color: #000000;
+    padding: 56px 0 56px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   .icons{
+    margin-top: 125px;
+    display: flex;
+    gap: 13.33px;
+   }
+   .facebook{
+    svg{
+        path{
+            fill: #FFF;
+        }
+        path:hover{
+            transition: 0.5s;
+            fill: #6028F1 ;
+        }
+    }
+}
+.youtube{
+    svg{
+        path{
+            fill: #FFF;
+        }
+        path:hover{
+            transition: 0.5s;
+            fill:  #FF5A5A;
+        }
+    }
+}
+.twitter{
+    svg{
+        path{
+            fill: #FFF;
+        }
+        path:hover{
+            transition: 0.5s;
+            fill: #27718A;
+        }
+    }
+}
+.p{
+    svg{
+        path{
+            fill: #FFF;
+        }
+        path:hover{
+            transition: 0.5s;
+            fill: #DE3838;
+        }
+    }
+}
+.insta{
+    svg{
+        path{
+            fill: #FFF;
+        }
+        path:hover{
+            transition: 0.5s;
+            fill: #6028F1;
+        }
+    }
+}
+   .links{
+
+    display: flex;
+    gap: 39px;
+    align-items: center;
+   }
+   .links a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 2px;
+   }
+   .links a:hover{
+    color: #645656;
+   }
+   .btn-btn{
+    display: flex;
+    gap: 22px;
+    justify-content: center;
+   }
+   .btn-btn p{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 2px;
+   }
+    .copy{
+        padding-top: 125px;
+    opacity: 50.25%;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #ffffff;
+   }
+}
+
+// mobile
+@media only screen and (max-width:900px){
+    .wrapper{
+        margin: 0 auto;
+    }
+        .menu{
+            display: none;
+        }
+        .button{
+                display: none;
+        }
+        .hamburger{
+            display: flex;
+        }
+        
+        .page-1{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .page-1 .create{
+            height: 420px;
+        }
+        .create h1{
+            text-align: center;
+        }
+        .create p{
+            text-align: center;
+        }
+        .create .invite{
+            text-align: center;
+        }
+        .page-2{
+            display: flex;
+            flex-direction: column;
+        }
+        .page-2 .create{
+            width: 550px;
+            height: 420px;
+        }
+        .page-3{
+            display: flex;
+            flex-direction: column-reverse;
+        } 
+        .page-3 .create{
+            width: 550px;
+            height: 420px;
+        }
+        .container{
+            display: flex;
+        }
+        .architecturals img{
+            display: none;
+        }
+        .computer{
+            margin: 0 auto;
+        }
+        footer{
+            width: 100%;
+            height: 475px;
+        }
+        .main-footer{ 
+            flex-direction: column;
+        }
+        .footer{
+            display: flex;
+            flex-direction: column;
+        }
+        .wrap{
+            margin: 0 auto;
+            flex-direction: column;
+        }
+        .links{
+            padding-left: 0;
+            margin: 0 auto;
+            flex-direction: column;
+        }
+        .flex-wrpaer{
+            display: none;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            .container   .mountains{
+                display: flex;
+                justify-content: center;
+                width: 750px;
+                height: 730px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-image: url(../images/desktop/mountains.png);
+                h4{
+                    padding-top: 341px;
+                    padding-left: 40px;
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 25px; /* 138.889% */
+                }
+                .name{
+                    padding-left: 40px;
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+                .line{
+                    margin-left: 40px;
+                    width: 280px;
+                    height: 1px;
+                    flex-shrink: 0;
+                    opacity: 0.25;
+                    background: #FFF;
+                }
+                h5{
+                    padding-left: 40px;
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 2px;
+                }
+            }
+            .cityscapes{
+                margin: 0 auto;
+                width: 760px;
+                height: 520px;
+                background-repeat: no-repeat;
+                background-image: url(../images/desktop/cityscapes.png);
+                
+                h4{
+                    padding-top: 341px;
+                    padding-left: 40px;
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 25px; /* 138.889% */
+                }
+                .name{
+                    padding-left: 40px;
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+                .line{
+                    margin-left: 40px;
+                    width: 280px;
+                    height: 1px;
+                    flex-shrink: 0;
+                    opacity: 0.25;
+                    background: #FFF;
+                }
+                h5{
+                    padding-bottom: 20px;
+                    padding-left: 40px;
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 2px;
+                }
+            }
+            .cityscapes{
+                margin: 0 auto;
+                width: 360px;
+                height: 520px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-image: url(../images/desktop/cityscapes.png);
+                
+                h4{
+                    padding-top: 341px;
+                    padding-left: 40px;
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 25px; /* 138.889% */
+                }
+                .name{
+                    padding-left: 40px;
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+                .line{
+                    margin-left: 40px;
+                    width: 280px;
+                    height: 1px;
+                    flex-shrink: 0;
+                    opacity: 0.25;
+                    background: #FFF;
+                }
+                h5{
+                    padding-bottom: 20px;
+                    padding-left: 40px;
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 2px;
+                }
+            }
+            .voyage{
+                background-size: cover;
+                margin: 0 auto;
+                width: 860px;
+                height: 720px;
+                background-repeat: no-repeat;
+                background-image: url(../images/desktop/voyage.png);
+                
+                h4{
+                    padding-top: 341px;
+                    padding-left: 40px;
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 25px; /* 138.889% */
+                }
+                .name{
+                    padding-left: 40px;
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+                .line{
+                    margin-left: 40px;
+                    width: 280px;
+                    height: 1px;
+                    flex-shrink: 0;
+                    opacity: 0.25;
+                    background: #FFF;
+                }
+                h5{
+                    padding-bottom: 20px;
+                    padding-left: 40px;
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 2px;
+                }
+            }
+            .architecturals{
+                margin: 0 auto;
+                width: 360px;
+                height: 520px;
+                background-repeat: no-repeat;
+                background-image: url(../images/desktop/architecturais.png);
+                
+                h4{
+                    padding-top: 341px;
+                    padding-left: 40px;
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 25px; /* 138.889% */
+                }
+                .name{
+                    padding-left: 40px;
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+                .line{
+                    margin-left: 40px;
+                    width: 280px;
+                    height: 1px;
+                    flex-shrink: 0;
+                    opacity: 0.25;
+                    background: #FFF;
+                }
+                h5{
+                    padding-bottom: 20px;
+                    padding-left: 40px;
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 2px;
+                }
+            }
+        }
+    }
+// mobile
+@media only screen and (max-width:700px) {
+    .wrapper{
+        margin: 0 auto;
+    }
+    
+    .page-1{
+        width: 100%;
+        flex-direction: column-reverse;
+        .create{
+            width: 460px;
+            height: 600px;
+        }
+        .main img{
+            width: 685px;
+            height: 600px;
+        }
+    }
+    .mountains{
+        width: 650px;
+        height: 500px;
+        background-repeat: no-repeat;
+        background-image: url(../images/mobile/main-card.png);
+        
+        h4{
+            padding-top: 341px;
+            padding-left: 40px;
+            color: #FFF;
+            font-family: DM Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 25px; /* 138.889% */
+        }
+        .name{
+            padding-left: 40px;
+            color: #FFF;
+            font-family: DM Sans;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .line{
+            margin-left: 40px;
+            width: 280px;
+            height: 1px;
+            flex-shrink: 0;
+            opacity: 0.25;
+            background: #FFF;
+        }
+        h5{
+            padding-left: 40px;
+            color: #FFF;
+            font-family: DM Sans;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 2px;
+        }
+    }
+    .footer .icons{
+        padding-left: 10px;
+        margin-top: 10px;
+        padding-bottom: 20px;
+    }
+    .flex-wrpaer{
+        display: none;
+    }
+}
